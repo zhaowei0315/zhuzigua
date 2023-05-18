@@ -43,6 +43,7 @@ PARAMETERS: num1(3) TYPE n,
 SELECTION-SCREEN BEGIN OF BLOCK b2 WITH FRAME TITLE text01.
 SELECTION-SCREEN COMMENT /1(79) text001."每行最多79个字符
 SELECTION-SCREEN COMMENT /1(79) text002."每行最多79个字符
+SELECTION-SCREEN COMMENT /1(79) text003."每行最多79个字符
 SELECTION-SCREEN END OF BLOCK b2.
 
 INITIALIZATION.
@@ -52,6 +53,7 @@ INITIALIZATION.
   text01 = '用法'.
   text001 = '心中默念提问的问题,并随机想三个三位数字。'.
   text002 = '“三不占”原则：不诚不占、不疑不占、不义不占。'.
+  text003 = '同一个问题以第一次占得结果为准，3个月后方可再次占卜。'.
 
 START-OF-SELECTION.
 
